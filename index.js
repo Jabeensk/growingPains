@@ -34,3 +34,10 @@ controlPlantGrowth(2);
 
 console.log(`Week 3: ${predictPlantGrowth(3)} plants`);
 controlPlantGrowth(3);
+
+try {
+    const result = (predictPlantGrowth);
+    console.log(result);
+} catch (error) {
+    console.error(`An error occurred: ${error.message}`);
+}
